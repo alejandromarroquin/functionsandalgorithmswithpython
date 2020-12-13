@@ -1,0 +1,11 @@
+print('Declarar una tupla: ')
+my_tuple=()
+print('Mostrar el tipo de dato: ')
+print(type(my_tuple))
+print('Asignar valores a la tupla')
+my_tuple=(1,'dos',True)
+print('Suma de tuplas: ')
+tuple_one=(1,)
+tuple_two=(2,3,4)
+tuple_one+=tuple_two
+print(tuple_one)
